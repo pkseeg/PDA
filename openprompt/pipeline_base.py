@@ -1,6 +1,6 @@
 from transformers import AdamW
 from transformers.configuration_utils import PretrainedConfig
-from transformers.generation_utils import GenerationMixin
+from transformers.generation.utils import GenerationMixin
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
