@@ -40,16 +40,16 @@ verbalizer: manual_verbalizer
 
 manual_template:
   choice: 0
-  file_path: scripts/TextClassification/amazon/manual_template.txt
+  file_path: PDA/scripts/TextClassification/amazon/manual_template.txt
 
 
 one2one_verbalizer:
   choice: 0
-  file_path: scripts/TextClassification/amazon/manual_verbalizer.txt
+  file_path: PDA/scripts/TextClassification/amazon/manual_verbalizer.txt
 
 manual_verbalizer:
   choice: 0
-  file_path: scripts/TextClassification/amazon/manual_verbalizer.txt
+  file_path: PDA/scripts/TextClassification/amazon/manual_verbalizer.txt
   
 environment:
   num_gpus: 1
